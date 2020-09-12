@@ -1,0 +1,51 @@
+﻿@model IEnumerable<MVC_Carts.Models.Order>
+
+@{
+    ViewBag.Title = "MyOrder";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <h1 class="page-header">我的訂單</h1>
+    </div>
+    <div class="row">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>購買會員</th>
+                    <th>收貨人姓名</th>
+                    <th>收貨人電話</th>
+                    <th>收貨人住址</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @item.GetUrderName()
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ReceiverName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ReceiverPhone)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ReceiverAddress)
+                        </td>
+                        <td>
+                            @Html.ActionLink("商品明細", "MyOrderDetail", new { id = Convert.ToInt32(item.Id) }
+                         , new { @class = "btn btn-info" })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,106 @@
+﻿@model MVC_Carts.Models.Product
+
+@{
+    ViewBag.Title = "商品資訊";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    string strUserName = "";
+
+    // 取得商品留言
+            var commentlist = new List<MVC_Carts.Models.ProductComment>();
+    using (MVC_Carts.Models.CartsEntities db = new MVC_Carts.Models.CartsEntities())
+    {
+        commentlist = (from pdcmm in db.ProductComments
+                       where pdcmm.ProductId == Model.Id
+                       select pdcmm).ToList();
+    }
+
+    // 取得使用者的姓名
+    string getUserName(string userid)
+    {
+        string username = "";
+        using(MVC_Carts.Models.UserEntities userdb = new MVC_Carts.Models.UserEntities())
+        {
+            username = (from u in userdb.AspNetUsers
+                        where u.Id == userid
+                        select u.UserName).FirstOrDefault<string>();
+        }
+        return username;
+    }
+}
+
+<div >
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="col-lg-12">
+                <h1 class="page-header">商品資訊</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h4>@Html.DisplayFor(model => model.Name)</h4>
+                </div>
+                <div class="panel-body">
+                    <dl class="dl-horizontal">
+                        <dt>
+
+                        </dt>
+                        <dd>
+                            <img src="@this.Model.DefaultImageURL" class="img-rounded" />
+                        </dd>
+                        <dt>
+                            描述
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.Description)
+                        </dd>
+                        <dt>
+                            售價
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.Price)
+                        </dd>
+                        <dt>
+                            庫存數量
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.Quantity)
+                        </dd>
+                    </dl>
+                    <div class="list-group">
+                        <div class="list-group-item-heading">使用者留言</div>
+                        @foreach (var comment in commentlist)
+                        {
+                            strUserName = getUserName(comment.UserId);
+                            <div class="list-group-item">
+                                @strUserName : @comment.Content
+                                <span class="pull-right text-muted">@comment.CreateDate</span>
+                            </div>
+                        }
+
+                    </div>
+                    @using (Html.BeginForm("AddComment", "Home", FormMethod.Post, new { @role = "form", @class = "form-inline" }))
+                    {
+                        <div class="form-group">
+                            @Html.HiddenFor(m => m.Id)
+                            @Html.TextBox("Content", null, new {@class = "form-control", @placeholder =  "輸入您的留言" })
+                            <input type="submit" value="留言" class="btn btn-info" />
+                        </div>
+                        
+                    }
+                </div>
+                <div class="panel-footer">
+                    <button type="button" class="btn btn-default btn-circle btn-lg" onclick="AddToCart(@Model.Id)">
+                        <i class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></i>
+                    </button>加入購物車
+                </div>
+            </div>
+            <div class="pull-right">
+                @Html.ActionLink("回首頁", "Index", null, new { @class = "btn btn-default" })
+            </div>
+        </div>
+    </div>
+</div>

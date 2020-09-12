@@ -1,0 +1,52 @@
+﻿@model IEnumerable<MVC_Carts.Models.ManageUser>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <h1 class="page-header">會員管理</h1>
+    </div>
+    <div class="row">
+        @if (ViewBag.ResultMessage != null)//判斷如果有訊息，則顯示。
+        {
+            @Html.Label("info", (string)ViewBag.ResultMessage, new { @class = "text-info" })
+        }
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.UserName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Email)
+                        </th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.UserName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Email)
+                            </td>
+                            <td>
+                                @Html.ActionLink("編輯", "Edit", new { id = item.Id }, new { @class = "btn btn-default" })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+

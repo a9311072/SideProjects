@@ -1,0 +1,37 @@
+<mat-toolbar color="primary" class="my-menu">
+  <button mat-icon-button class="example-icon my-menu" [matMenuTriggerFor]="menu" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu" class="my-menu">
+    <button mat-menu-item >User</button>
+    <button mat-menu-item >Cards</button>
+    <button mat-menu-item >About</button>
+  </mat-menu>
+  <span></span>
+  <span>Demo</span> 
+</mat-toolbar>
+<div><h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dynamic CRUD</h2></div>
+<div>
+  &nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <button mat-mini-fab class="btn-add" (click)="open()"><mat-icon>add</mat-icon></button>
+</div>
+
+<table mat-table [dataSource]="dataSource" matSort>
+  <ng-container *ngFor="let column of columns" [matColumnDef]="column.columnDef">
+    <mat-header-cell *matHeaderCellDef  mat-sort-header>{{ column.header }}</mat-header-cell>
+    <mat-cell *matCellDef="let row">{{ column.cell(row) }}</mat-cell>
+  </ng-container>
+  <ng-container matColumnDef="Actions">
+    <mat-header-cell *matHeaderCellDef> Actions </mat-header-cell>
+    <mat-cell *matCellDef="let row; let i = index">
+      <button mat-icon-button (click)="open()" class="btn"><i class="material-icons">border_color</i></button>
+      <button mat-icon-button (click)="delete(row)" class="btn"><i class="material-icons">delete</i></button>
+    </mat-cell>
+  </ng-container>
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+</table>
+<mat-paginator [pageSizeOptions]="[10]" showFirstLastButtons></mat-paginator>
+<!-- <mat-paginator [pageSizeOptions]="[10, 20]" showFirstLastButtons></mat-paginator> -->
+

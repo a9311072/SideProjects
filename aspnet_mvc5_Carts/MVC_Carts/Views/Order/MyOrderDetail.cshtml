@@ -1,0 +1,43 @@
+﻿@model IEnumerable<MVC_Carts.Models.OrderDetail>
+
+@{
+    ViewBag.Title = "MyOrderDetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container-fluid">
+    <div class="row">
+        <h1 class="page-header">@String.Format("訂單編號{0}商品列表", this.Model.FirstOrDefault().Id)</h1>
+    </div>
+    <div class="row">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>商品名稱</th>
+                    <th>商品價格</th>
+                    <th>購買數量</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Price)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Quantity)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="pull-right">
+    @Html.ActionLink("回商品列表", "MyOrder", new { }, new { @class = "btn btn-default" })
+</div>
+ 

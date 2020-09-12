@@ -1,0 +1,51 @@
+
+
+.ng-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.mat-header-cell {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+table {
+  width: 100%;
+  padding:30px;
+  font-size:14px;
+  min-width: 200px;
+  background-color:#f3f6f9;
+}
+mat-header-cell {
+  padding:5px 0px;
+
+  background-color:#bfeae9;
+  font-family: Lato;
+  font-size: 16px;
+}
+mat-cell {
+  padding:5px 0px;
+  font-family: Lato;
+  font-size: 16px;
+}
+mat-paginator{
+  /* width: 100%; */
+  padding:20px;
+  font-family: Lato;
+  font-size:16px;
+  background-color:#f3f6f9;
+}
+
+.my-menu {
+  color:#fff;
+  background-color: #0b3051;
+}
+
+.btn {
+  color: #06B5B3;
+}
+.btn-add {
+  color: white;
+  background-color: #06B5B3;
+}

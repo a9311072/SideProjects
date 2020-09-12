@@ -1,0 +1,60 @@
+﻿@model List<MVC_Carts.Models.Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div >
+            <div >
+                <h1 class="page-header">商品列表</h1>
+            </div>
+            <div class="pull-right">
+                @Html.ActionLink("新增商品", "Create", new { }, new { @class = "btn btn-primary" })
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div>
+            @if (ViewBag.ResultMessage != null)
+            {
+                @Html.Label("info", (string)ViewBag.ResultMessage, new { @class = "text-info" })
+            }
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <td>商品圖</td>
+                        <td>編號</td>
+                        <td>名稱</td>
+                        <td>描述</td>
+                        <td>售價</td>
+                        <td>庫存</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var product in this.Model)
+                    {
+                        <tr>
+                            <td><img src="@product.DefaultImageURL" width="50" height="50" /></td>
+                            <td>@product.Id</td>
+                            <td>@product.Name</td>
+                            <td>@product.Description</td>
+                            <td>@product.Price</td>
+                            <td>@product.Quantity</td>
+                            <td>
+                                @Html.ActionLink("編輯", "Edit", new { id = product.Id }, new { @class = "btn btn-info" })
+                                @Html.ActionLink("刪除", "Delete", new { id = product.Id }, new { @class = "btn btn-danger" })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+

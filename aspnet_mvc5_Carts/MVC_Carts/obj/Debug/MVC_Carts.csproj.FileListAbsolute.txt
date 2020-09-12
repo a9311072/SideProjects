@@ -1,0 +1,359 @@
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\MVC_Carts.dll.config
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\MVC_Carts.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\MVC_Carts.pdb
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Antlr3.Runtime.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\EntityFramework.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\EntityFramework.SqlServer.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.AI.Web.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.ApplicationInsights.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Newtonsoft.Json.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Owin.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\System.Web.Helpers.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\System.Web.Mvc.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\System.Web.Optimization.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\System.Web.Razor.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.Deployment.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.Razor.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\WebGrease.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\System.Web.Helpers.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\System.Web.Mvc.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\System.Web.Optimization.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\System.Web.Razor.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.Deployment.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.Razor.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Antlr3.Runtime.pdb
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Newtonsoft.Json.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\EntityFramework.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\EntityFramework.SqlServer.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.ApplicationInsights.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\Microsoft.AI.Web.xml
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.Optimization.resources.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.WebPages.resources.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\zh-Hant\EntityFramework.resources.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.resources.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Security.resources.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\obj\Debug\MVC_Carts.csprojResolveAssemblyReference.cache
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\obj\Debug\MVC_Carts.csproj.CoreCompileInputs.cache
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\obj\Debug\MVC_Carts.dll
+C:\Users\a9311\Documents\Visual Studio 2017\Projects\MVC_Carts\MVC_Carts\obj\Debug\MVC_Carts.pdb
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\MVC_Carts.dll.config
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\MVC_Carts.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\MVC_Carts.pdb
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Antlr3.Runtime.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\EntityFramework.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\EntityFramework.SqlServer.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.AI.Agent.Intercept.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.AI.DependencyCollector.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.AI.Web.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.AI.WindowsServer.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.ApplicationInsights.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.Core.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Cookies.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Facebook.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Google.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.OAuth.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Twitter.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.Web.Infrastructure.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Newtonsoft.Json.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Owin.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\System.Web.Helpers.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\System.Web.Mvc.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\System.Web.Optimization.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\System.Web.Razor.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.Deployment.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.Razor.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\WebGrease.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\System.Web.Helpers.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\System.Web.Mvc.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\System.Web.Optimization.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\System.Web.Razor.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.Deployment.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.Razor.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Antlr3.Runtime.pdb
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Newtonsoft.Json.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\EntityFramework.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\EntityFramework.SqlServer.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.Core.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Facebook.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Cookies.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.OAuth.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Google.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Twitter.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.ApplicationInsights.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.AI.DependencyCollector.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.AI.WindowsServer.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\Microsoft.AI.Web.xml
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.Helpers.resources.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.Mvc.resources.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.Optimization.resources.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.Razor.resources.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.WebPages.resources.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\zh-Hant\EntityFramework.resources.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.AspNet.Identity.Core.resources.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.resources.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Security.resources.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Security.Facebook.resources.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Security.Google.resources.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Security.Twitter.resources.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\obj\Debug\MVC_Carts.csproj.CoreCompileInputs.cache
+D:\tempfiles\MVC_Carts\MVC_Carts\obj\Debug\MVC_Carts.csproj.CopyComplete
+D:\tempfiles\MVC_Carts\MVC_Carts\obj\Debug\MVC_Carts.dll
+D:\tempfiles\MVC_Carts\MVC_Carts\obj\Debug\MVC_Carts.pdb
+D:\tempfiles\MVC_Carts\MVC_Carts\obj\Debug\MVC_Carts.csprojAssemblyReference.cache
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\MVC_Carts.dll.config
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\MVC_Carts.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\MVC_Carts.pdb
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Antlr3.Runtime.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\EntityFramework.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\EntityFramework.SqlServer.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.AI.Agent.Intercept.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.AI.DependencyCollector.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.AI.PerfCounterCollector.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.AI.ServerTelemetryChannel.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.AI.Web.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.AI.WindowsServer.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.ApplicationInsights.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.Core.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.Owin.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Host.SystemWeb.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Cookies.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Facebook.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Google.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.OAuth.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Twitter.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.Web.Infrastructure.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Newtonsoft.Json.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Owin.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\System.Web.Helpers.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\System.Web.Mvc.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\System.Web.Optimization.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\System.Web.Razor.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.Deployment.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.Razor.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\WebGrease.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\System.Web.Helpers.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\System.Web.Mvc.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\System.Web.Optimization.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\System.Web.Razor.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.Deployment.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.Razor.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Antlr3.Runtime.pdb
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Newtonsoft.Json.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\EntityFramework.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\EntityFramework.SqlServer.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.Core.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.Owin.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Host.SystemWeb.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Facebook.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Cookies.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.OAuth.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Google.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Twitter.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.ApplicationInsights.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.AI.DependencyCollector.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.AI.ServerTelemetryChannel.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.AI.WindowsServer.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\Microsoft.AI.Web.xml
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.Helpers.resources.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.Mvc.resources.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.Optimization.resources.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.Razor.resources.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.WebPages.resources.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\zh-Hant\EntityFramework.resources.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.AspNet.Identity.Core.resources.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.AspNet.Identity.Owin.resources.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.resources.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Host.SystemWeb.resources.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Security.resources.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Security.Facebook.resources.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Security.Google.resources.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Security.Twitter.resources.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\obj\Debug\MVC_Carts.csproj.CoreCompileInputs.cache
+K:\MyWorks\MVC_Carts\MVC_Carts\obj\Debug\MVC_Carts.csproj.CopyComplete
+K:\MyWorks\MVC_Carts\MVC_Carts\obj\Debug\MVC_Carts.dll
+K:\MyWorks\MVC_Carts\MVC_Carts\obj\Debug\MVC_Carts.pdb
+K:\MyWorks\MVC_Carts\MVC_Carts\obj\Debug\MVC_Carts.csprojAssemblyReference.cache
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\MVC_Carts.dll.config
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\MVC_Carts.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\MVC_Carts.pdb
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Antlr3.Runtime.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\EntityFramework.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\EntityFramework.SqlServer.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.AI.Web.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Newtonsoft.Json.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Owin.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\System.Web.Helpers.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\System.Web.Mvc.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\System.Web.Optimization.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\System.Web.Razor.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.Razor.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\WebGrease.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\System.Web.Helpers.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\System.Web.Mvc.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\System.Web.Optimization.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\System.Web.Razor.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\System.Web.WebPages.Razor.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Antlr3.Runtime.pdb
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Newtonsoft.Json.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\EntityFramework.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\EntityFramework.SqlServer.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\Microsoft.AI.Web.xml
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.Optimization.resources.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.WebPages.resources.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\zh-Hant\EntityFramework.resources.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.resources.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Security.resources.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\bin\zh-Hant\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\obj\Debug\MVC_Carts.csprojAssemblyReference.cache
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\obj\Debug\MVC_Carts.csproj.CoreCompileInputs.cache
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\obj\Debug\MVC_Carts.csproj.CopyComplete
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\obj\Debug\MVC_Carts.dll
+C:\Users\ampos\Downloads\MVC_Carts\MVC_Carts\obj\Debug\MVC_Carts.pdb

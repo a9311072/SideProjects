@@ -1,0 +1,48 @@
+﻿@using Microsoft.AspNet.Identity;
+@model List<MVC_Carts.Models.Product>
+@{
+    ViewBag.Title = "購物首頁";
+    var UserId = User.Identity.GetUserId();
+    var UserName = User.Identity.GetUserName();
+}
+
+<style>.ProductImg{height:300px;}</style>
+<div class="panel panel-default">
+    <div class="panel-body">
+        <h1>NCTU 生活資訊購物網</h1>
+        <p>本專案由ASP.NET MVC 及 Entity Framework 實作</p>
+    </div>
+
+</div>
+
+<div class="row">
+    @foreach (var product in this.Model)
+    {
+        <div class="col-sm-6 col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    @product.Name
+                </div>
+                <div class="panel-body">
+                    <span class="thumbnail">
+                        <a href="/Home/Details?id=@product.Id">
+                            <img class="ProductImg" src="@product.DefaultImageURL" alt="商品圖片" />
+                        </a>
+                    </span>
+                    <div class="list-group">
+                        <p class="list-group-item">@product.Description</p>
+                        <p class="list-group-item">售價: @product.Price</p>
+                        <p class="list-group-item">庫存: @product.Quantity</p>
+                    </div>
+
+                </div>
+                <div class="panel-footer">
+                    <div class="btn-group">
+                        <a onclick="AddToCart('@product.Id')" href="javascript:void(0);" class="btn btn-primary" role="button">加入購物車</a>
+                        <a href="/Home/Details?id=@product.Id" class="btn btn-default" role="button">詳細資訊</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
