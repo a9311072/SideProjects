@@ -12,7 +12,7 @@ from service.util import UtilService
 from service.announcement import AnnouncementService
 
 
-def get_tokens(host, paras):
+def get_tokens_async(host, paras):
     data = []
     sites = []
     util = UtilService(host)
@@ -56,7 +56,7 @@ if __name__ == "__main__":
         '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
         # Main function
         '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-        get_tokens(host, paras)
+        get_tokens_async(host, paras)
 
 
     except Exception as e:   
