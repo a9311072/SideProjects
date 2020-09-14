@@ -42,4 +42,6 @@ def solution(A, K):
     K =  K % len(A) 
     return A[-K:] + A[:-K]
 
+
 print(solution([3, 8, 9, 7, 6], 3))
+print(solution([1,2,3,4], 4))
