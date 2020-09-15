@@ -208,11 +208,14 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\BaseCrudService.cs" />
+    <Compile Include="Areas\Admin\Controllers\BaseRepository.cs" />
     <Compile Include="Areas\Admin\Controllers\MenusController.cs" />
     <Compile Include="Areas\Admin\Controllers\RolesController.cs" />
+    <Compile Include="Areas\Admin\Controllers\RolesController_bak.cs" />
+    <Compile Include="Areas\Admin\Controllers\UnitOfWork.cs" />
     <Compile Include="Areas\Admin\Models\Menu.cs" />
     <Compile Include="Areas\Admin\Models\Role.cs" />
-    <Compile Include="Areas\Admin\Servies\AdminService.cs" />
     <Compile Include="Areas\Product\Models\ProductCatagory.cs" />
     <Compile Include="Areas\Product\ProductAreaRegistration.cs" />
     <Compile Include="Areas\Product\Controllers\ProductCatagoriesController.cs" />
@@ -274,6 +277,7 @@
     <Content Include="Areas\Admin\Views\Menus\Details.cshtml" />
     <Content Include="Areas\Admin\Views\Menus\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\Menus\Index.cshtml" />
+    <Content Include="Areas\Product\Views\ProductCatagories\Index - backup.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -285,7 +289,9 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -354,6 +360,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Servies\" />
     <Folder Include="Areas\Admin\Views\Shared\" />
     <Folder Include="Areas\Product\Views\Shared\" />
   </ItemGroup>
@@ -380,7 +387,7 @@
   <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
     <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
   </Target>
-  <ProjectExtensions>
+  <!--ProjectExtensions>
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
@@ -397,13 +404,31 @@
         </WebProjectProperties>
       </FlavorProperties>
     </VisualStudio>
-  </ProjectExtensions>
+  </ProjectExtensions-->
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>此專案參考這部電腦上所缺少的 NuGet 封裝。請啟用 NuGet 封裝還原，以下載該封裝。如需詳細資訊，請參閱 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的檔案是 {0}。</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
   </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50616/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

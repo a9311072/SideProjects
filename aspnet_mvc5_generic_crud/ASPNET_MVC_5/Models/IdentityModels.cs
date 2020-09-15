@@ -39,7 +39,7 @@ namespace ASPNET_MVC_5.Models
         public DbSet<EQPService> EQPServices { get; set; }
         public DbSet<EQPServiceList> EQPServiceLists { get; set; }
 
-        public DbSet<Role> Roles { get; set; }
+        public new DbSet<Role> Roles { get; set; }
         public System.Data.Entity.DbSet<ASPNET_MVC_5.Areas.Admin.Models.Menu> Menus { get; set; }
 
         public System.Data.Entity.DbSet<ASPNET_MVC_5.Areas.Product.Models.ProductCatagory> ProductCatagories { get; set; }

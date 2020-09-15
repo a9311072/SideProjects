@@ -13,7 +13,12 @@ using ASPNET_MVC_5.Models;
 namespace ASPNET_MVC_5.Areas.Admin.Controllers
 {
     [Authorize]
-    public class MenusController : Controller
+    public class MenusController : BaseCrudService<Menu, MenuRepository>
+    {
+
+    }
+
+    public class MenusController_bak : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 

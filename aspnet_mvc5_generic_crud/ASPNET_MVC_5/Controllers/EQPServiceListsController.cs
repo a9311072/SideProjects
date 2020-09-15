@@ -17,7 +17,7 @@ namespace ASPNET_MVC_5.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: EQPServiceLists
-        public async Task<ActionResult> Index()
+        public ActionResult Index()
         {
             var result = (from o in db.EQPServiceLists
                           from p in db.EQPs
@@ -27,8 +27,8 @@ namespace ASPNET_MVC_5.Controllers
                           select new EQPServiceRelations
                           { EQP_Id = o.EQP_Id,
                             EQP_Name = p.Name,
-                            Service_Id =o.EQPService_Id,
-                            Service_Name=q.Name
+                            Service_Id = o.EQPService_Id,
+                            Service_Name = q.Name
                           }).ToList();
 
             return View(result);

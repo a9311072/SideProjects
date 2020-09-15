@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<ASPNET_MVC_5.Areas.Admin.Models.Menu>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Menu Setting";
 }
 
 <h2>Index</h2>
@@ -11,7 +11,7 @@
 <table class="table">
     <tr>
         <th>@Html.DisplayNameFor(model => model.Name)</th>
-        <th>@Html.DisplayNameFor(model => model.Url)</th>
+        @*<th>@Html.DisplayNameFor(model => model.Url)</th>*@
         <th>@Html.DisplayNameFor(model => model.ParentMenuId)</th>
         <th>@Html.DisplayNameFor(model => model.Priority)</th>
         <th>Action</th>
@@ -20,7 +20,7 @@
 @foreach (var item in Model) {
     <tr>
         <td>@Html.DisplayFor(modelItem => item.Name)</td>
-        <td>@Html.DisplayFor(modelItem => item.Url)</td>
+        @*<td>@Html.DisplayFor(modelItem => item.Url)</td>*@
         <td>@Html.DisplayFor(modelItem => item.ParentMenuId)</td>
         <td>@Html.DisplayFor(modelItem => item.Priority)</td>
         <td>

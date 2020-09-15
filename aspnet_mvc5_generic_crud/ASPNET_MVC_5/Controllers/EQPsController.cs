@@ -53,6 +53,8 @@ namespace ASPNET_MVC_5.Controllers
             if (ModelState.IsValid)
             {
                 db.EQPs.Add(eQP);
+                var obj = db.EQPServiceLists.Add(new EQPServiceList { EQP_Id = eQP.Id, EQPService_Id = 5 });
+
                 await db.SaveChangesAsync();
                 return RedirectToAction("Index");
             }

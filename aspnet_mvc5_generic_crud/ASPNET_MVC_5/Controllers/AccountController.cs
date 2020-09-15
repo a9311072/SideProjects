@@ -73,19 +73,19 @@ namespace ASPNET_MVC_5.Controllers
                 return View(model);
             }
 
-            // Get Menus
-            using (ApplicationDbContext db = new ApplicationDbContext())
-            {
-                var menus = (from o in db.Menus select o).ToList();
-                Session["MainMenus"] = menus;
-            }
-
             // 這不會計算為帳戶鎖定的登入失敗
             // 若要啟用密碼失敗來觸發帳戶鎖定，請變更為 shouldLockout: true
             var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout: false);
             switch (result)
             {
                 case SignInStatus.Success:
+                    // Get Menus 
+                    // Account: admin@aspnet.com  Password: P@ssw0rd
+                    using (ApplicationDbContext db = new ApplicationDbContext())
+                    {
+                        var menus = (from o in db.Menus select o).ToList();
+                        Session["MainMenus"] = menus;
+                    }
                     return RedirectToLocal(returnUrl);
                 case SignInStatus.LockedOut:
                     return View("Lockout");
