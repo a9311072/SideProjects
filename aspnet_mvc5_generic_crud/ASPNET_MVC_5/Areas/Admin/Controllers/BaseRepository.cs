@@ -246,6 +246,4 @@ namespace ASPNET_MVC_5.Areas.Admin.Controllers
         }
     }
 
-    public class RoleRepository : BaseRepository<Role> { }
-    public class MenuRepository : BaseRepository<Menu> { }
 }
