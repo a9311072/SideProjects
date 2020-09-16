@@ -1,4 +1,4 @@
-https://dynamic-crud-table.stackblitz.io
+demo url: https://dynamic-crud-table.stackblitz.io
 
 Features:  
 Dynamic Table (Inject by different object)  
