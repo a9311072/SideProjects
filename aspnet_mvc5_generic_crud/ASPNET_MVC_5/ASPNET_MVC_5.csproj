@@ -208,12 +208,13 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
-    <Compile Include="Areas\Admin\Controllers\BaseCrudService.cs" />
-    <Compile Include="Areas\Admin\Controllers\BaseRepository.cs" />
+    <Compile Include="Areas\Admin\Repositories\MenusRepository.cs" />
+    <Compile Include="Areas\Admin\Repositories\RolesRepository.cs" />
+    <Compile Include="Areas\Admin\Servies\BaseCrudService.cs" />
+    <Compile Include="Areas\Admin\Servies\BaseRepository.cs" />
     <Compile Include="Areas\Admin\Controllers\MenusController.cs" />
     <Compile Include="Areas\Admin\Controllers\RolesController.cs" />
-    <Compile Include="Areas\Admin\Controllers\RolesController_bak.cs" />
-    <Compile Include="Areas\Admin\Controllers\UnitOfWork.cs" />
+    <Compile Include="Areas\Admin\Servies\UnitOfWork.cs" />
     <Compile Include="Areas\Admin\Models\Menu.cs" />
     <Compile Include="Areas\Admin\Models\Role.cs" />
     <Compile Include="Areas\Product\Models\ProductCatagory.cs" />
@@ -360,7 +361,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\Admin\Servies\" />
     <Folder Include="Areas\Admin\Views\Shared\" />
     <Folder Include="Areas\Product\Views\Shared\" />
   </ItemGroup>
