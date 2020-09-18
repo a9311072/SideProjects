@@ -279,6 +279,7 @@
     <Content Include="Areas\Admin\Views\Menus\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\Menus\Index.cshtml" />
     <Content Include="Areas\Product\Views\ProductCatagories\Index - backup.cshtml" />
+    <Content Include="Views\Shared\_Index.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -358,6 +359,7 @@
     <Content Include="Views\EQPServices\Edit.cshtml" />
     <Content Include="Views\EQPServices\Index.cshtml" />
     <Content Include="Views\Shared\_Menu.cshtml" />
+    <Content Include="Views\Shared\_Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

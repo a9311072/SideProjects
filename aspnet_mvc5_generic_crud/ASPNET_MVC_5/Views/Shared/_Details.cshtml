@@ -1,0 +1,32 @@
+﻿
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+<br />
+<div>
+    <h4>@Model.GetType().Name</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        @foreach (var property in Model.GetType().GetProperties())
+        {
+            if (@property.Name == "Id")
+            {
+                @Html.Hidden("Id")
+            }
+            else
+            {
+                <dt>@property.Name</dt>
+                <dd>@property.GetValue(Model)</dd>
+
+            }
+        }
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

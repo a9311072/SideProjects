@@ -1,13 +1,14 @@
-﻿@model IEnumerable<ASPNET_MVC_5.Areas.Product.Models.ProductCatagory>
+﻿@model List<ASPNET_MVC_5.Areas.Product.Models.ProductCatagory>
 
 @{
-    ViewBag.Title = "Product Category";
+    ViewBag.Title = @Model.GetType().GetGenericArguments()[0].Name;
 }
 
-<h2>@Model.GetType().Name</h2>
+<h2>@Model.GetType().GetGenericArguments()[0].Name</h2>
+<br />
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New", "Create", new { }, new { @class = "btn btn-default" })
 </p>
 <table class="table">
     <thead>
@@ -34,7 +35,7 @@
             {
                 if (@property.Name == "Id")
                 {
-                    @Html.Hidden(property.Name)
+                    @Html.Hidden(property.GetValue(item))
                 }
                 else
                 {
@@ -42,9 +43,9 @@
                 }
             }
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }, new { @class = "btn btn-default" })
+                @Html.ActionLink("Details", "Details", new { id = item.Id }, new { @class = "btn btn-default" })
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { @class = "btn btn-default" })
             </td>
         </tr>
         }
