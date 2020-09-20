@@ -1,7 +1,7 @@
 Test Account: admin@aspnet.com  
 Test Password: P@ssw0rd  
   
-The generic crud pattern, the propose is inject the different objects to CRUD view settings.  
+The generic crud pattern, the purpose is injecting the different objects to CRUD view settings.  
 The demo path as below,  
 
 Services:  
