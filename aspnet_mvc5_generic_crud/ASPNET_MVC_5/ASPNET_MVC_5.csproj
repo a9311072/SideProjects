@@ -210,11 +210,11 @@
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Repositories\MenusRepository.cs" />
     <Compile Include="Areas\Admin\Repositories\RolesRepository.cs" />
-    <Compile Include="Areas\Admin\Servies\BaseCrudService.cs" />
-    <Compile Include="Areas\Admin\Servies\BaseRepository.cs" />
+    <Compile Include="Areas\Service\BaseCrudService.cs" />
+    <Compile Include="Areas\Service\BaseRepository.cs" />
     <Compile Include="Areas\Admin\Controllers\MenusController.cs" />
     <Compile Include="Areas\Admin\Controllers\RolesController.cs" />
-    <Compile Include="Areas\Admin\Servies\UnitOfWork.cs" />
+    <Compile Include="Areas\Service\UnitOfWork.cs" />
     <Compile Include="Areas\Admin\Models\Menu.cs" />
     <Compile Include="Areas\Admin\Models\Role.cs" />
     <Compile Include="Areas\Product\Models\ProductCatagory.cs" />
@@ -278,8 +278,7 @@
     <Content Include="Areas\Admin\Views\Menus\Details.cshtml" />
     <Content Include="Areas\Admin\Views\Menus\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\Menus\Index.cshtml" />
-    <Content Include="Areas\Product\Views\ProductCatagories\Index - backup.cshtml" />
-    <Content Include="Views\Shared\_Index.cshtml" />
+    <Content Include="Views\Shared\Crud\_Index.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -359,7 +358,10 @@
     <Content Include="Views\EQPServices\Edit.cshtml" />
     <Content Include="Views\EQPServices\Index.cshtml" />
     <Content Include="Views\Shared\_Menu.cshtml" />
-    <Content Include="Views\Shared\_Details.cshtml" />
+    <Content Include="Views\Shared\Crud\_Details.cshtml" />
+    <Content Include="Views\Shared\Crud\_Edit.cshtml" />
+    <Content Include="Views\Shared\Crud\_Create.cshtml" />
+    <Content Include="Views\Shared\Crud\_Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

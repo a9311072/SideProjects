@@ -1,3 +1,5 @@
 ﻿@model ASPNET_MVC_5.Areas.Admin.Models.Menu
-
-@Html.Partial("_Details", Model)
+@{
+    ViewBag.Title = "Details";
+}
+@Html.Partial("Crud/_Details", Model)

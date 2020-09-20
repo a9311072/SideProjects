@@ -1,2 +1,6 @@
 ﻿@model List<ASPNET_MVC_5.Areas.Admin.Models.Menu>
-@Html.Partial("_Index", Model)
+
+@{
+    ViewBag.Title = @Model.GetType().GetGenericArguments()[0].Name + " Setting";
+}
+@Html.Partial("Crud/_Index", Model)
