@@ -42,7 +42,7 @@ namespace ASPNET_MVC_5.Areas.Service
         /// First the or default.  
         /// </summary>  
         /// <returns></returns>  
-        TEntity FirstOrDefault();
+        TEntity FirstOrDefault(System.Linq.Expressions.Expression<Func<TEntity, bool>> predicate);
 
         /// <summary>  
         /// Adds the specified entity.  
@@ -144,9 +144,9 @@ namespace ASPNET_MVC_5.Areas.Service
         /// First the or default.  
         /// </summary>  
         /// <returns></returns>  
-        public virtual TEntity FirstOrDefault()
+        public virtual TEntity FirstOrDefault(System.Linq.Expressions.Expression<Func<TEntity, bool>> predicate)
         {
-            return _context.Set<TEntity>().SingleOrDefault();
+            return _context.Set<TEntity>().Where(predicate).FirstOrDefault();
         }
 
         /// <summary>  
