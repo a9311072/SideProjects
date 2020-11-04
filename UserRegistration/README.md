@@ -2,7 +2,7 @@ User Registration
 
 Build the related services for the project
 
-##Services##
+###Services
 - Base Repository Pattern
   - In order to abstract the DB layer for the scalable data resource
     - MS-SQL
