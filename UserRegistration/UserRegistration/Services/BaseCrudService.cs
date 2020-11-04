@@ -29,14 +29,16 @@ namespace UserRegistration.Services
             _repo = new TRepo();
         }
 
-        // GET: TRepo/
+        // GET: /api/T/
+        [HttpGet]
         public virtual async Task<IHttpActionResult> GetAll()
         {
             var obj = await _repo.GetAll();
             return Ok(obj);
         }
 
-        // GET: TRepo/Details/5
+        // GET: /api/T/id
+        [HttpGet]
         public virtual async Task<IHttpActionResult> Get(int id)
         {
             var obj = await _repo.Get(id);
@@ -46,7 +48,8 @@ namespace UserRegistration.Services
             return Ok(obj);
         }
 
-        // POST: TRepo/Create
+        // POST: /api/T/
+        [HttpPost]
         public virtual async Task<IHttpActionResult> Post(T entity)
         {
             if (!ModelState.IsValid)
@@ -58,7 +61,8 @@ namespace UserRegistration.Services
             return Created("DefaultApi", entity);
         }
 
-        // PUT: TRepo/Edit/5
+        // PUT: /api/T/id
+        [HttpPut]
         public virtual async Task<IHttpActionResult> Put(int id, T entity)
         {
             if (!ModelState.IsValid)
@@ -82,7 +86,8 @@ namespace UserRegistration.Services
             return Ok(entity);
         }
 
-        // POST: TRepo/Delete/5
+        // POST: /api/T/id
+        [HttpDelete]
         public virtual async Task<IHttpActionResult> Delete(int id)
         {
             var obj = await _repo.Get(id);
