@@ -10,6 +10,7 @@ namespace UserRegistration.Controllers
 {
     public class UserController : BaseCrudService<User, UserRepository>
     {
+        [HttpPost]
         [ResponseType(typeof(User))]
         [Route("api/user/register")]
         public override async Task<IHttpActionResult> Post(User user)
@@ -42,6 +43,7 @@ namespace UserRegistration.Controllers
             return Created("api/user/register", new { Token = token });
         }
 
+        [HttpPut]
         public override async Task<IHttpActionResult> Put(int id, User user)
         {
             if (!ModelState.IsValid)

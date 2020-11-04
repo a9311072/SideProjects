@@ -23,8 +23,8 @@ namespace UserRegistration.Services
 
     public class Email : IMessenger
     {
-        private string _address;
-        private string _name;
+        private readonly string _address;
+        private readonly string _name;
         public Email(string address, string name)
         {
             _address = address;
@@ -60,9 +60,9 @@ namespace UserRegistration.Services
 
     public class SMS : IMessenger
     {
-        private string _phone;
-        private string _code;
-        private string _name;
+        private readonly string _phone;
+        private readonly string _code;
+        private readonly string _name;
         public SMS(string phone, string code, string name)
         {
             _phone = phone;

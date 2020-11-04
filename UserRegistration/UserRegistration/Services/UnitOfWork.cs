@@ -30,10 +30,11 @@ namespace UserRegistration.Services
                     _dbTransaction.Commit();
                     Dispose();
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
                     _dbTransaction.Rollback();
                     Dispose();
+                    throw ex;
                 }
             }
 
