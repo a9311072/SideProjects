@@ -38,7 +38,7 @@ namespace UserRegistration.Services
         }
 
         // GET: /api/T/id
-        [HttpGet]
+        [HttpGet("{id}")]
         public virtual async Task<IHttpActionResult> Get(int id)
         {
             var obj = await _repo.Get(id);
@@ -62,7 +62,7 @@ namespace UserRegistration.Services
         }
 
         // PUT: /api/T/id
-        [HttpPut]
+        [HttpPut("{id}")]
         public virtual async Task<IHttpActionResult> Put(int id, T entity)
         {
             if (!ModelState.IsValid)
@@ -87,7 +87,7 @@ namespace UserRegistration.Services
         }
 
         // POST: /api/T/id
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public virtual async Task<IHttpActionResult> Delete(int id)
         {
             var obj = await _repo.Get(id);
