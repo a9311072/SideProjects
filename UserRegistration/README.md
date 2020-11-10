@@ -14,4 +14,4 @@ Build the related services for the project
   - To make sure the multi-repository commit by one transaction
 
 - Base Crud Servcie Pattern
-  - To provide a scalable and generic Restful API
+  - To provide a scalable and generic Restful API quickly
