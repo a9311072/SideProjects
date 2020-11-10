@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.Entity.Infrastructure;
 using System.Threading.Tasks;
 using UserRegistration.Models;
 
@@ -28,12 +29,15 @@ namespace UserRegistration.Services
                 {
                     await _context.SaveChangesAsync();
                     _dbTransaction.Commit();
-                    Dispose();
+                }
+                catch (DbUpdateException dbEx)
+                {
+                    _dbTransaction.Rollback();
+                    throw dbEx;
                 }
                 catch (Exception ex)
                 {
                     _dbTransaction.Rollback();
-                    Dispose();
                     throw ex;
                 }
             }

@@ -1,9 +1,6 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using UserRegistration.Controllers;
 using UserRegistration.Models;
-using UserRegistration.Repositories;
-using UserRegistration.Services;
 
 namespace UserRegistration.Tests.Controllers
 {

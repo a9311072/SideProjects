@@ -221,8 +221,8 @@
     <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="Services\BaseCrudService.cs" />
     <Compile Include="Services\BaseRepository.cs" />
-    <Compile Include="Services\Notification.cs" />
-    <Compile Include="Services\Token.cs" />
+    <Compile Include="Infrastructures\Notification.cs" />
+    <Compile Include="Infrastructures\Token.cs" />
     <Compile Include="Services\UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -278,6 +278,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

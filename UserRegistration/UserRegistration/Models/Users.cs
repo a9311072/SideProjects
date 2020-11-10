@@ -20,6 +20,7 @@ namespace UserRegistration.Models
         [MaxLength(128)]
         public string Name { get; set; }
 
+        [EmailAddress]
         [MaxLength(128)]
         public string Email { get; set; }
 

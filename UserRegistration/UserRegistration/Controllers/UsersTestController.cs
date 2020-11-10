@@ -5,6 +5,7 @@ using System.Web.Http.Description;
 using UserRegistration.Models;
 using UserRegistration.Repositories;
 using UserRegistration.Services;
+using UserRegistration.Infrastructures;
 
 namespace UserRegistration.Controllers
 {
@@ -66,23 +67,10 @@ namespace UserRegistration.Controllers
             if (user.Password != user.ConfirmPassword)
                 return BadRequest("The password is inconsistency");
 
-            try
-            {
-                _repo.Update(user);
-                await _repo.Commit();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!ObjExists(id)) return NotFound();
-                else throw;
-            }
+            _repo.Update(user);
+            await _repo.Commit();
 
             return Ok(user);
-        }
-
-        private bool ObjExists(int id)
-        {
-            return _repo.Get(id) != null;
         }
     }
 }

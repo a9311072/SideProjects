@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.Entity.Infrastructure;
-using System.Net;
 using System.Threading.Tasks;
 using System.Web.Http;
-using System.Web.Http.Description;
 
 namespace UserRegistration.Services
 {
@@ -72,21 +69,14 @@ namespace UserRegistration.Services
                 if (property.Name == "Id")
                     if (id != Convert.ToInt32(property.GetValue(entity)))
                         return BadRequest("Id is inconsistency");
-            try
-            {
-                _repo.Update(entity);
-                await _repo.Commit();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!ObjExists(id)) return NotFound();
-                else throw;
-            }
+
+            _repo.Update(entity);
+            await _repo.Commit();
 
             return Ok(entity);
         }
 
-        // POST: /api/T/id
+        // Delete: /api/T/id
         [HttpDelete]
         public virtual async Task<IHttpActionResult> Delete(int id)
         {
@@ -107,9 +97,5 @@ namespace UserRegistration.Services
             base.Dispose(disposing);
         }
 
-        private bool ObjExists(int id)
-        {
-            return _repo.Get(id) != null;
-        }
     }
 }

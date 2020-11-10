@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net.Mail;
 
-namespace UserRegistration.Services
+namespace UserRegistration.Infrastructures
 {
     public interface IMessenger
     {

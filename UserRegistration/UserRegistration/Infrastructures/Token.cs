@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 
 
-namespace UserRegistration.Services
+namespace UserRegistration.Infrastructures
 {
     public interface IToken
     {

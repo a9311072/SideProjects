@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using UserRegistration.Services;
+using UserRegistration.Infrastructures;
 
 namespace UserRegistration.Tests.Services
 {

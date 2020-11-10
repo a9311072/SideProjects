@@ -98,11 +98,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\UsersControllerTest.cs" />
+    <Compile Include="ControllersTest\UsersControllerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Controllers\HomeControllerTest.cs" />
-    <Compile Include="Services\NotificationTest.cs" />
-    <Compile Include="Services\TokenTest.cs" />
+    <Compile Include="ControllersTest\HomeControllerTest.cs" />
+    <Compile Include="InfrastructuresTest\NotificationTest.cs" />
+    <Compile Include="InfrastructuresTest\TokenTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />

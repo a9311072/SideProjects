@@ -46,12 +46,10 @@ namespace UserRegistration.Services
             return await _context.Set<TEntity>().ToListAsync();
         }
 
-
         public virtual IEnumerable<TEntity> Find(System.Linq.Expressions.Expression<Func<TEntity, bool>> predicate)
         {
             return _context.Set<TEntity>().Where(predicate);
         }
-
 
         public virtual TEntity SingleOrDefault(System.Linq.Expressions.Expression<Func<TEntity, bool>> predicate)
         {
@@ -63,13 +61,11 @@ namespace UserRegistration.Services
             return _context.Set<TEntity>().Where(predicate).FirstOrDefault();
         }
 
- 
         public virtual TEntity Add(TEntity entity)
         {
             _context.Set<TEntity>().Add(entity);
             return entity;
         }
-
 
         public virtual IEnumerable<TEntity> AddRange(IEnumerable<TEntity> entities)
         {
@@ -77,7 +73,6 @@ namespace UserRegistration.Services
             return entities;
         }
 
- 
         public virtual TEntity Remove(TEntity entity)
         {
             _context.Set<TEntity>().Remove(entity);
@@ -89,7 +84,6 @@ namespace UserRegistration.Services
             _context.Set<TEntity>().RemoveRange(entities);
             return entities;
         }
-
 
         public virtual TEntity RemoveEntity(TEntity entity)
         {
