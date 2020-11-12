@@ -3,36 +3,21 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
-using UserRegistration.Models;
+using UserRegistration.Infrastructures;
+using UserRegistration.DAL.Interfaces;
 
 namespace UserRegistration.Services
 {
-    public interface IRepository<TEntity> : IUnitOfWork where TEntity : class
-    {
-
-        Task<TEntity> Get(int id);  
-        Task<IEnumerable<TEntity>> GetAll();
-        IEnumerable<TEntity> Find(System.Linq.Expressions.Expression<Func<TEntity, bool>> predicate);
-        TEntity SingleOrDefault(System.Linq.Expressions.Expression<Func<TEntity, bool>> predicate);
-        TEntity FirstOrDefault(System.Linq.Expressions.Expression<Func<TEntity, bool>> predicate);
-        TEntity Add(TEntity entity);
-        IEnumerable<TEntity> AddRange(IEnumerable<TEntity> entities);  
-        TEntity Remove(TEntity entity);
-        IEnumerable<TEntity> RemoveRange(IEnumerable<TEntity> entities); 
-        TEntity RemoveEntity(TEntity entity); 
-        TEntity Update(TEntity entity);
-    }
-
     public abstract class BaseRepository<TEntity> : IUnitOfWork, IRepository<TEntity>, IDisposable where TEntity : class
     {
-        protected readonly WebApplicationContext _context;
+        protected readonly MsSqlContext _context;
         protected IUnitOfWork _db;
         private bool _disposed = false;
 
 
         public BaseRepository()
         {
-            _context = new WebApplicationContext();
+            _context = new MsSqlContext();
             _db = new UnitOfWork(_context);
         }
 
@@ -105,9 +90,9 @@ namespace UserRegistration.Services
         /// <summary>  
         /// Commit the DB changes  
         /// </summary>  
-        public virtual async Task Commit()
+        public virtual async Task CommitAsync()
         {
-            await _db.Commit();
+            await _db.CommitAsync();
             Dispose();
         }
 

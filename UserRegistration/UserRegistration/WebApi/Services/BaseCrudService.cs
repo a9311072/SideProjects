@@ -1,20 +1,11 @@
 ﻿using System;
-using System.Data.Entity.Infrastructure;
 using System.Threading.Tasks;
 using System.Web.Http;
+using UserRegistration.DAL.Interfaces;
+using UserRegistration.WebApi.Interfaces;
 
 namespace UserRegistration.Services
 {
-    public interface IBaseCrudService<T, TRepo>
-        where T : class
-        where TRepo : IRepository<T>, new()
-    {
-        Task<IHttpActionResult> GetAll();
-        Task<IHttpActionResult> Get(int id);
-        Task<IHttpActionResult> Post(T entity);
-        Task<IHttpActionResult> Put(int id, T entity);
-        Task<IHttpActionResult> Delete(int id);
-    }
 
     public abstract class BaseCrudService<T, TRepo> : ApiController, IBaseCrudService<T, TRepo>
         where T : class
@@ -35,7 +26,7 @@ namespace UserRegistration.Services
         }
 
         // GET: /api/T/id
-        [HttpGet("{id}")]
+        [HttpGet]
         public virtual async Task<IHttpActionResult> Get(int id)
         {
             var obj = await _repo.Get(id);
@@ -53,13 +44,13 @@ namespace UserRegistration.Services
                 return BadRequest(ModelState);
 
             _repo.Add(entity);
-            await _repo.Commit();
+            await _repo.CommitAsync();
 
             return Created("DefaultApi", entity);
         }
 
         // PUT: /api/T/id
-        [HttpPut("{id}")]
+        [HttpPut]
         public virtual async Task<IHttpActionResult> Put(int id, T entity)
         {
             if (!ModelState.IsValid)
@@ -71,7 +62,7 @@ namespace UserRegistration.Services
                         return BadRequest("Id is inconsistency");
 
             _repo.Update(entity);
-            await _repo.Commit();
+            await _repo.CommitAsync();
 
             return Ok(entity);
         }
@@ -85,7 +76,7 @@ namespace UserRegistration.Services
                 return NotFound();
 
             _repo.Remove(obj);
-            await _repo.Commit();
+            await _repo.CommitAsync();
             return Ok(obj);
         }
 

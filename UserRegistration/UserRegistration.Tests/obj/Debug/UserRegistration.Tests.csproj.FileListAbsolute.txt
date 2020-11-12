@@ -175,3 +175,5 @@ C:\Users\Admin\Google 雲端硬碟 (chengtsung.pcs07g@nctu.edu.tw)\SideProjects\
 C:\Users\Admin\Google 雲端硬碟 (chengtsung.pcs07g@nctu.edu.tw)\SideProjects\UserRegistration\UserRegistration.Tests\bin\Debug\zh-Hant\System.Web.WebPages.Razor.resources.dll
 C:\Users\Admin\Google 雲端硬碟 (chengtsung.pcs07g@nctu.edu.tw)\SideProjects\UserRegistration\UserRegistration.Tests\bin\Debug\zh-Hant\System.Web.Optimization.resources.dll
 C:\Users\Admin\Google 雲端硬碟 (chengtsung.pcs07g@nctu.edu.tw)\SideProjects\UserRegistration\UserRegistration.Tests\obj\Debug\UserRegistration.Tests.csproj.CopyComplete
+C:\Users\Admin\Google 雲端硬碟 (chengtsung.pcs07g@nctu.edu.tw)\SideProjects\UserRegistration\UserRegistration.Tests\bin\Debug\WebActivatorEx.dll
+C:\Users\Admin\Google 雲端硬碟 (chengtsung.pcs07g@nctu.edu.tw)\SideProjects\UserRegistration\UserRegistration.Tests\bin\Debug\Swashbuckle.Core.dll

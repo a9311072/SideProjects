@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using UserRegistration.Infrastructures;
+using UserRegistration.Infrastructures.Services;
 
 namespace UserRegistration.Tests.Services
 {
@@ -13,7 +13,7 @@ namespace UserRegistration.Tests.Services
             try
             {
                 //Please setup account& password before testing
-                new Notification(new Email("lurker_ama@hotmail.com", "Allen")).DoNotify();
+                new Notification(new Email("xxxxxxx@gmail.com", "UserName")).DoNotify();
                 Assert.IsTrue(true);
             }
             catch (Exception ex)

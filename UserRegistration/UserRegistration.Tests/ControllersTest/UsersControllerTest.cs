@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using UserRegistration.Controllers;
 using UserRegistration.Models;
+using UserRegistration.WebApi.Controllers;
 
 namespace UserRegistration.Tests.Controllers
 {

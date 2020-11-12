@@ -1,13 +1,12 @@
-﻿using System.Data.Entity.Infrastructure;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Description;
+using UserRegistration.Infrastructures.Services;
 using UserRegistration.Models;
 using UserRegistration.Repositories;
 using UserRegistration.Services;
-using UserRegistration.Infrastructures;
 
-namespace UserRegistration.Controllers
+namespace UserRegistration.WebApi.Controllers
 {
     public class UserController : BaseCrudService<User, UserRepository>
     {
@@ -34,7 +33,7 @@ namespace UserRegistration.Controllers
                 return BadRequest("The password is inconsistency");
 
             _repo.Add(user);
-            await _repo.Commit();
+            await _repo.CommitAsync();
 
             //if (user.Email != null) new Notification(new Email(user.Email, user.Name)).DoNotify();                   //Done
             //if (user.Phone != null) new Notification(new SMS(user.Phone, user.CountryCode, user.Name)).DoNotify();   //does not implement
@@ -68,7 +67,7 @@ namespace UserRegistration.Controllers
                 return BadRequest("The password is inconsistency");
 
             _repo.Update(user);
-            await _repo.Commit();
+            await _repo.CommitAsync();
 
             return Ok(user);
         }

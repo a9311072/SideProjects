@@ -9,7 +9,7 @@ using UserRegistration.Models;
 using UserRegistration.Repositories;
 using UserRegistration.Services;
 
-namespace UserRegistration.Controllers
+namespace UserRegistration.WebApi.Controllers
 {
     public class CourseController : BaseCrudService<Course, CourseRepository> { }
 }

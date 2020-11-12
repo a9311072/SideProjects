@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Web;
+﻿using System.Data.Entity;
 
-namespace UserRegistration.Models
+namespace UserRegistration.Infrastructures
 {
-    public class WebApplicationContext : DbContext
+    public class MsSqlContext : DbContext
     {
         // You can add custom code to this file. Changes will not be overwritten.
         // 
@@ -15,7 +11,7 @@ namespace UserRegistration.Models
         // For more information refer to the documentation:
         // http://msdn.microsoft.com/en-us/data/jj591621.aspx
     
-        public WebApplicationContext() : base("name=WebApplicationContext")
+        public MsSqlContext() : base("name=MsSqlContext")
         {
         }
 

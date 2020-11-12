@@ -1,6 +1,6 @@
-﻿using System.Web.Mvc;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WebApplication4.Controllers;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Web.Mvc;
+using UserRegistration.WebApi.Controllers;
 
 namespace UserRegistration.Tests.Controllers
 {

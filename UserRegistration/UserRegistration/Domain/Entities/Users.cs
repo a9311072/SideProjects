@@ -3,15 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace UserRegistration.Models
 {
-    public interface IUser
-    {
-        int Id { get; set; }
-        string Name { get; set; }
-        string Password { get; set; }
-    }
-
-
-    public class User: IUser
+    public class User
     {
         [Key]
         public int Id { get; set; }

@@ -4,35 +4,10 @@ using JWT.Exceptions;
 using JWT.Serializers;
 using System;
 using System.Collections.Generic;
+using UserRegistration.Infrastructures.Interfaces;
 
-
-namespace UserRegistration.Infrastructures
+namespace UserRegistration.Infrastructures.Services
 {
-    public interface IToken
-    {
-        string GetToken(string userName, int expireMinutes);
-        string TryValidateToken(string token);
-    }
-
-    public class Token
-    {
-        private IToken _token;
-        public Token(IToken token)
-        {
-            _token = token;
-        }
-
-        public string GetToken(string userName, int expireMinutes)
-        {
-            return _token.GetToken(userName, expireMinutes);
-        }
-
-        public string GetValidateToken(string token)
-        {
-            return _token.TryValidateToken(token);
-        }
-    }
-
     public class JwtToken: IToken
     {
         private const string Secret = "AmazingTalker+ZDy0t8W3TcNekrF+2d/1sFnWG4HnV8TZY30iTOdtVWJG8abWvB1GlOgJuQZdcF2Luqm/hccMw==";
@@ -105,6 +80,4 @@ namespace UserRegistration.Infrastructures
 
         }
     }
-
-
 }

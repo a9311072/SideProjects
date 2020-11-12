@@ -1,33 +1,28 @@
 ﻿using System;
 using System.Data.Entity.Infrastructure;
 using System.Threading.Tasks;
-using UserRegistration.Models;
+using UserRegistration.Infrastructures;
+using UserRegistration.DAL.Interfaces;
 
 namespace UserRegistration.Services
 {
-    public interface IUnitOfWork
-    {
-        Task Commit();
-        void Dispose();
-    }
-
     public class UnitOfWork : IUnitOfWork, IDisposable
     {
-        protected readonly WebApplicationContext _context;
+        protected readonly MsSqlContext _dbContext;
         private bool _disposed = false;
 
-        public UnitOfWork(WebApplicationContext context)
+        public UnitOfWork(MsSqlContext dbContext)
         {
-            _context = context;
+            _dbContext = dbContext;
         }
 
-        public virtual async Task Commit()
+        public virtual async Task CommitAsync()
         {
-            using (var _dbTransaction = _context.Database.BeginTransaction())
+            using (var _dbTransaction = _dbContext.Database.BeginTransaction())
             {
                 try
                 {
-                    await _context.SaveChangesAsync();
+                    await _dbContext.SaveChangesAsync();
                     _dbTransaction.Commit();
                 }
                 catch (DbUpdateException dbEx)
@@ -56,7 +51,7 @@ namespace UserRegistration.Services
             {
                 if (disposing)
                 {
-                    _context.Dispose();
+                    _dbContext.Dispose();
                 }
             }
             _disposed = true;

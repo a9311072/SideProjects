@@ -1,11 +1,8 @@
 namespace UserRegistration.Migrations
 {
-    using System;
-    using System.Data.Entity;
     using System.Data.Entity.Migrations;
-    using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<UserRegistration.Models.WebApplicationContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<UserRegistration.Infrastructures.MsSqlContext>
     {
         public Configuration()
         {
@@ -13,7 +10,7 @@ namespace UserRegistration.Migrations
             ContextKey = "WebApplication4.Models.WebApplicationContext";
         }
 
-        protected override void Seed(UserRegistration.Models.WebApplicationContext context)
+        protected override void Seed(UserRegistration.Infrastructures.MsSqlContext context)
         {
             //  This method will be called after migrating to the latest version.
 

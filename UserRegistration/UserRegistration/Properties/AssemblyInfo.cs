@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 組件的一般資訊會透過將設定 
 // 控制。變更這些屬性值可修改與組件關聯的
 // 資訊。
-[assembly: AssemblyTitle("WebApplication4")]
+[assembly: AssemblyTitle("UserRegistration")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WebApplication4")]
+[assembly: AssemblyProduct("UserRegistration")]
 [assembly: AssemblyCopyright("Copyright (C)  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
